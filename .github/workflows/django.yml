@@ -27,6 +27,6 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        cd /home/runner/work/PhotoApp/PhotoApp/
+        cd desktop/PhotoApp/socialproject/
         python3 manage.py test
 
