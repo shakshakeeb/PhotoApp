@@ -1,0 +1,9 @@
+asgiref==3.7.2
+distlib==0.3.7
+Django==4.1
+django-mathfilters==1.0.0
+filelock==3.12.4
+Pillow==10.1.0
+platformdirs==3.11.0
+sqlparse==0.4.4
+virtualenv==20.24.5
