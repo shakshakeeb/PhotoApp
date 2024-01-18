@@ -17,6 +17,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Clean Workspace
+      run: rm -rf /home/runner/work/PhotoApp
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
@@ -27,6 +29,6 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        cd desktop/PhotoApp/socialproject/
+        cd /home/runner/work/PhotoApp/PhotoApp/
         python3 manage.py test
 
