@@ -29,9 +29,9 @@ jobs:
       run: ls -l /home/runner/work/PhotoApp/PhotoApp/socialproject/
 
     - name: Set Working Directory
-      run: cd /home/runner/work/PhotoApp/PhotoApp/socialproject/
+      run: cd /home/runner/work/PhotoApp/PhotoApp/socialproject/manage.py
 
     - name: Run Tests
-      run: python /home/runner/work/PhotoApp/PhotoApp/socialproject/manage.py test
+      run: python manage.py test
 
 
